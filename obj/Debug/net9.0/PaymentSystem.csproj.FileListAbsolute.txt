@@ -37,3 +37,5 @@
 /Users/charan/PaymentSystem/obj/Debug/net9.0/PaymentSystem.pdb
 /Users/charan/PaymentSystem/obj/Debug/net9.0/PaymentSystem.genruntimeconfig.cache
 /Users/charan/PaymentSystem/obj/Debug/net9.0/ref/PaymentSystem.dll
+/Users/charan/PaymentSystem/bin/Debug/net9.0/Payment-systems/appsettings.json
+/Users/charan/PaymentSystem/obj/Debug/net9.0/PaymentSystem.sourcelink.json

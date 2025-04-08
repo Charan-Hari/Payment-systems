@@ -19,6 +19,10 @@ This system is designed to enable users to initiate payments through PayPal for 
 3. **Redirection to PayPal:** Once the order is created, the user is redirected to PayPal for completing the transaction.
 4. **Payment Capture (Optional):** If the payment is authorized, it can be captured by the merchant.
 
+## Low Level Design
+
+- [Low Level Design Document](https://github.com/Charan-Hari/Payment-systems/blob/main/LowLevelDesign.md)
+
 ## Tech Stack
 
 - **Backend:** ASP.NET Core

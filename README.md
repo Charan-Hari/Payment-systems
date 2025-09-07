@@ -39,6 +39,14 @@ git clone https://github.com/your-username/payment-system.git cd payment-system
 
 3. **Configure PayPal Credentials:**
 - Add your PayPal Client ID and Secret in `appsettings.json`:
+```bash
+{
+  "PayPal": {
+    "ClientId": "your-client-id",
+    "ClientSecret": "your-client-secret"
+  }
+}
+```
     ```json
     {
     "PayPal": {
@@ -53,6 +61,7 @@ API will be available at http://localhost:5000
 
 
 ## Endpoints
+
 POST /api/payment/create-payment
 
 Initiates the payment process by creating an order.
@@ -64,41 +73,44 @@ Initiates the payment process by creating an order.
 
 Request Body:
 
-json
-Copy
+```bash
 {
   "amount": 100.00,
   "currency": "USD"
 }
+```
 Response:
 
-json
-Copy
+```bash
 {
   "orderId": "12345",
   "status": "CREATED",
   "intent": "CAPTURE"
 }
+```
+
 POST /api/payment/capture-payment
 
 Captures an authorized payment once the user confirms.
 
 Request Body:
 
-json
-Copy
+```bash
 {
   "orderId": "12345"
 }
+```
 Response:
 
-json
-Copy
+```bash
 {
   "status": "CAPTURED",
   "captureId": "67890"
 }
-Contributing
+```
+
+## Contributing
+
 Fork the repository.
 
 Create a new branch (git checkout -b feature-branch).

@@ -75,5 +75,12 @@ namespace PaymentSystem.Services
 
             return null;  // Return null if the payment creation failed or there was an error
         }
+
+        public async Task<PaymentResponse?> CapturePaymentAsync(string orderId)
+        {
+            // Logic for capturing payment after authorization
+            // Example implementation for capturing payment (should be similar to creating payment)
+            return null;  // Placeholder for capturing logic
+        }
     }
 }

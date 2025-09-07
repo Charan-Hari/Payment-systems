@@ -39,13 +39,13 @@ git clone https://github.com/your-username/payment-system.git cd payment-system
 
 3. **Configure PayPal Credentials:**
 - Add your PayPal Client ID and Secret in `appsettings.json`:
-```json
-{
-  "PayPal": {
-    "ClientId": "your-client-id",
-    "ClientSecret": "your-client-secret"
-  }
-}
+    ```json
+    {
+    "PayPal": {
+        "ClientId": "your-client-id",
+        "ClientSecret": "your-client-secret"
+    }
+    } ````
 
 4. **Run the Application:**
 - Start the application locally: dotnet run

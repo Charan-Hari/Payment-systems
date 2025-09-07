@@ -63,7 +63,5 @@ namespace PaymentSystem.Controllers
 
     }
 
-    // This class represents the request payload for creating a payment
-
 
 }
